@@ -4,6 +4,14 @@ Buggy script for configuring OpenConnect (ocserv) protocol on the server easily 
 
 **2023 JAN UPDATE**: We added a help instruction for Docker custom installation so everyone can fully customized ocserv configuration for him/her self like port number, custom header etc.
 
+## Normal Installation
+```bash
+1- apt update
+2- wget -N --no-check-certificate http://saghebcenter.ir/proxy/scripts/ocserv-en.sh
+3- chmod +x ocserv-en.sh
+4- bash ocserv-en.sh
+5- wget -N --no-check-certificate http://saghebcenter.ir/proxy/scripts/bbr.sh && chmod +x bbr.sh && bash bbr.sh
+```
 ## Docker Installation
 1. Install Docker
 2. Build docker image
